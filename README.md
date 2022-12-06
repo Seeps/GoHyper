@@ -10,26 +10,20 @@ You will also need to import the Go HTTP package:
 go get golang.org/x/net/html
 ```
 
-To run the script, use the following command:
-
-```go
-go run hyperlink_extractor.go
-```
-
 The script accepts the following command-line arguments:
 
 ```go
-go run .\hyper.go -help                                                 
+go run GoHyper.go -help                                                 
   -output string
         the file to write the results to (if not specified, the results will be printed to standard output)
   -url string
         the URL to parse (default "http://example.com")
 ```
 
-Here is an example of how to run the script with the `-url` and `-output` flags set:
+Here is an example of how to run the script with the `-url` and `-output` flags set (note: output is optional):
 
 ```go
-go run hyperlink_extractor.go -url https://github.com/ -output links.txt
+go run GoHyper.go -url https://github.com/ -output links.txt
 ```
 
 This will extract all of the hyperlinks from the GitHub homepage and write them to a file named links.txt.
