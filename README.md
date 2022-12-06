@@ -2,7 +2,7 @@
 A parser that extracts URLs from a webpage.
 
 ## Usage
-To use the script, you need to have the [Go](https://go.dev/dl/) installed on your system. 
+To use the script, you need to have [Go](https://go.dev/dl/) installed on your system. 
 
 You will also need to import the Go HTTP package:
 
