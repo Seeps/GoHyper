@@ -2,7 +2,7 @@
 A parser that extracts URLs from a webpage.
 
 ## Usage
-To use the script, you need to have [Go](https://go.dev/dl/) installed on your system. 
+To use the script you need to have [Go](https://go.dev/dl/) installed on your system. 
 
 You will also need to import the Go HTTP package:
 
@@ -20,7 +20,7 @@ go run GoHyper.go -help
         the URL to parse (default "http://example.com")
 ```
 
-Here is an example of how to run the script with the `-url` and `-output` flags set (note: output is optional):
+Here is an example of how to run the script with the `-url` and `-output` flags set:
 
 ```go
 go run GoHyper.go -url https://github.com/ -output links.txt
